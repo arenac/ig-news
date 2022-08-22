@@ -1,5 +1,10 @@
-import styles from "../styles/home.module.scss";
+import Title from "../components/Title";
 
 export default function Home() {
-  return <h1 className={styles.title}>hello</h1>;
+  return (
+    <>
+      <Title title="home | ig.news" />
+      <h1>hello</h1>
+    </>
+  );
 }
